@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.stream.IntStream;
 
 //        Пример _ ППППППППППППППППППППППППППППППППППП
@@ -19,7 +20,7 @@ public class Draft1_Task2_1_12 {
         student1.theClass4 = "Pascal";
         student1.mark4 = 4;
 
-        /*Students student2 = new Students21();*/
+        /*Students student2 = new Students2();*/
         student1.name2 = "Петр";
         student1.theClass5 = "Java";
         student1.mark5 = 3;
@@ -60,6 +61,11 @@ public class Draft1_Task2_1_12 {
 //            }
 //
 //        }
+            System.out.println(); // Это перенос строки
+            List<StudentsTest> studentsTests = Data.getStudentsTests();
+            for (int i = 0; i < studentsTests.size(); i++) {
+                System.out.println(studentsTests.get(i));
+            }
 
     }
 }
