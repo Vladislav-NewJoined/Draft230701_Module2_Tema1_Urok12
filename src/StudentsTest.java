@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// От Stream API: https://youtu.be/4PWfSmgiHKs
+
 public class StudentsTest {
     String name1;
     String theClass1;
